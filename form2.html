@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./template.css">
+    <title>Form2</title>
+</head>
+
+<body>
+    <form style="display: inline" action="./menu.html" method="get">
+    <h2 class="heading-form2">Process request for accommodation, if applicable</h2>
+    <div class="boxed-instructions">
+        <p>This section needs to be completed by your manager. </p>
+    </div>
+    <h3><b>I have received and reviewed the documentation <span class="required">(required)</span></b></h3>
+    <div class="radio-button">
+        <input type="radio" name="radio1" required>
+        <label class="radio-label">Necessary supporting documentation; or</label>
+        <br>
+        <input type="radio" name="radio1" required>
+        <label class="radio-label">Alternative documentation in consultation with my departmental HR specialists;</label>
+        <br>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="radio1" required>
+        <label class="radio-label">The supporting documentation will be retained as per information management protocols,
+            retention
+            guidelines and in accordance with the Privacy Act and its Regulations <span class="required">(Manager
+                acknowledgement is
+                required)</span></label>
+        <br>
+    </div>
+    <h2>Decision</h2>
+    <h3>Duty to accommodate <span class="required">(required)</span></h3>
+    <div class="radio-button">
+        <input type="radio" name="radio2" required>
+        <label class="radio-label">Duty to accommodate <b>does not apply</b> (refer to <a
+                href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32694">Policy on COVID-19 Vaccination for the
+                Core Public
+                Administration Including the Royal Canadian Mounted Police) </a></label>
+        <br>
+        <input type="radio" name="radio2" required>
+        <label class="radio-label">Duty to accommodate <b>applies</b> (I have reviewed and accepted the justification)</label>
+    </div>
+    <h3>Accommodation duration <span class="required">(required)</span></h3>
+    <div class="radio-button">
+        <input type="radio" name="radio3" required>
+        <label class="radio-label">Permanent; or </label>
+        <br>
+        <input type="radio" name="radio3" required>
+        <label class="radio-label">Time limited, expiring on (enter DATE): <span class="required">(required)</span></label>
+        <input type="text" class="blue-bg">
+    </div>
+    <h3>Accommodation measure <span class="required">(required)</span></h3>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox2" checked>
+        <label class="radio-label">Performing regular duties/responsibilities through telework supported by a telework
+            agreement as per the
+            <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32636">Directive on Telework; </a></label>
+        <br>
+        <input type="checkbox" name="checkbox2">
+        <label class="radio-label">Assigning alternate duties/responsibilities that can be done through telework supported by
+            a telework
+            agreement as per the<a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32636"> Directive on
+                Telework;</a></label>
+        <br>
+        <input type="checkbox" name="checkbox2" >
+        <label class="radio-label">Testing as per Health Canada testing framework; and/or,</label>
+        <br>
+        <input type="checkbox" name="checkbox2" > 
+        <label class="radio-label">Other measures (<b>must specify</b>):</label>
+        <br>
+    </div>
+    <div class="boxed-instructions">
+        <p>For privacy reasons, only include information related to the accommodation measure being taken, not
+            information related to the employee’s personal accommodation request. Examples could include adjusted
+            hours, flexible schedule, etc.</p>
+    </div>
+    <textarea id="bigbox" class="blue-bg"></textarea>
+    <h3>Acknowledgement of discussion:</h3>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox">
+        <label class="radio-label"> The employee and I have discussed this request for accommodation and the resulting
+            decision. </label>
+        <br>
+    </div>
+    <div class="signature">
+        <p>Manager Signature: </p>
+        <input type="text" class="blue-bg">
+        <span class="white-bg"></span>
+        <p>Date: </p>
+        <input type="date" class="blue-bg">
+    </div>
+
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox">
+        <label class="radio-label"> My manager and I have discussed my request for accommodation and the resulting decision.
+        </label>
+        <br>
+    </div>
+    <div class="signature">
+        <p>Employee Signature: </p>
+        <input type="text" class="blue-bg">
+        <span class="white-bg"></span>
+        <p>Date: </p>
+        <input type="date" class="blue-bg">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="submit">
+        
+          <button type="submit" class="form-button">SUBMIT</button>
+        
+      </div>
+    <footer>
+        <hr>
+        <p>COVID-19 Vaccination Attestation Form – February 2022 </p>
+    </footer>
+</form>
+</body>
+
+
+</html>
