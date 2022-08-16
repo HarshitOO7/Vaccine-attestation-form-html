@@ -3,3 +3,5 @@ A Canada government's vaccine attestation form in html and css. Assignment of CO
 Link - https://bedi8.myweb.cs.uwindsor.ca/A4/menu.html
 
 ![image](https://user-images.githubusercontent.com/51077550/184965870-a9ce3515-c559-4411-be65-8a136897e85c.png)
+![image](https://user-images.githubusercontent.com/51077550/184966177-01ab645f-56fb-4752-9c47-c7efdcc54491.png)
+
